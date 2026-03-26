@@ -50,7 +50,7 @@ A website for **Help is Here** — a warm, community-focused door-to-door transp
 
 ## 🚀 Getting Started
 
-You'll need **Node.js 18+** and **npm 9+** — that's it!
+You'll need **Node.js 18+** and **npm 9+**
 
 ```bash
 # Clone it
@@ -104,7 +104,7 @@ help-is-here/
 
 ## 🎨 Design System
 
-All colors live in `tailwind.config.ts` as custom tokens — no raw Tailwind palette classes anywhere in the JSX!
+All colors live in `tailwind.config.ts` as custom tokens — no raw Tailwind palette classes anywhere in JSX
 
 | Token | Hex | What it's for |
 |---|---|---|
@@ -128,7 +128,7 @@ Anything marked **(placeholder)** in the source needs to be swapped out for real
 - **Values section** — The four values descriptions are editorial copy, not verified.
 - **"Most requested service" pill** — Just a label, not a confirmed stat.
 
-Everything else — contact info, pricing, service area, hours, accessibility details — is pulled from real public directory listings. ✅
+Everything else — contact info, pricing, service area, hours, accessibility details — is pulled from Help is Here. ✅
 
 ---
 
@@ -149,4 +149,4 @@ Both forms on the Contact page use `mailto:` — on submit they open the user's 
 
 ---
 
-Built with ❤️ for Help is Here — Collingwood, Ontario 🍁
+Built with ❤️ for Help is Here
