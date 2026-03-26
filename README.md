@@ -1,75 +1,71 @@
-# Help is Here — Website
+# 🚗 Help is Here
 
-Website for **Help is Here**, a private door-to-door transportation service based in Collingwood, Ontario, Canada. Founded and operated by **Mariea Marton-Wiles**, the service provides reliable rides to medical appointments, errands, social outings, and airport transfers across Southern Ontario.
-
----
-
-## About the Business
-
-| Detail | Info |
-|---|---|
-| **Owner** | Mariea Marton-Wiles |
-| **Location** | Collingwood, ON L9Y 5N7 |
-| **Phone** | 705-888-0613 |
-| **Email** | marieamwiles@gmail.com |
-| **Hours** | Monday – Sunday, by appointment |
-| **Service Radius** | 300 km from Collingwood |
-| **Languages** | English, Deutsch (German), Magyar (Hungarian) |
-
-### Services
-- **Medical Transportation** — Non-emergency hospital, clinic & specialist rides
-- **Shopping & Errands** — $100 flat rate / 4-hour local block
-- **Social Outings** — Visits, events, recreational activities
-- **Airport Transfers** — Door-to-door to/from airports
+A website for **Help is Here** — a warm, community-focused door-to-door transportation service based in **Collingwood, Ontario**, run by the wonderful **Mariea Marton-Wiles**. Whether someone needs a ride to a medical appointment, a grocery run, or a trip to the airport, Help is Here makes it happen!
 
 ---
 
-## Tech Stack
+## 🏡 About the Business
 
 | | |
 |---|---|
-| **Framework** | React 18 + TypeScript |
-| **Styling** | Tailwind CSS v3 (custom design tokens) |
-| **Routing** | React Router v6 |
-| **Build tool** | Vite |
-| **Icons** | Lucide React |
-| **Component variants** | class-variance-authority + clsx |
+| 👤 **Owner** | Mariea Marton-Wiles |
+| 📍 **Location** | Collingwood, ON L9Y 5N7 |
+| 📞 **Phone** | 705-888-0613 |
+| 📧 **Email** | marieamwiles@gmail.com |
+| 🕐 **Hours** | Monday – Sunday, by appointment |
+| 🗺️ **Service Radius** | 300 km from Collingwood |
+| 🌍 **Languages** | English · Deutsch · Magyar |
+
+### What they do 🙌
+- 🏥 **Medical Transportation** — Rides to hospitals, clinics & specialists
+- 🛒 **Shopping & Errands** — $100 flat rate for a 4-hour local block
+- 🎉 **Social Outings** — Visits, events, whatever you've got going on
+- ✈️ **Airport Transfers** — Door-to-door, stress-free
 
 ---
 
-## Pages
+## 🛠️ Tech Stack
 
-| Route | Page | Description |
+| | |
+|---|---|
+| ⚛️ **Framework** | React 18 + TypeScript |
+| 🎨 **Styling** | Tailwind CSS v3 (custom design tokens — no default palette!) |
+| 🔀 **Routing** | React Router v6 |
+| ⚡ **Build Tool** | Vite |
+| 🎯 **Icons** | Lucide React |
+| 🧩 **Component Variants** | class-variance-authority + clsx |
+
+---
+
+## 📄 Pages
+
+| Route | Page | What's on it |
 |---|---|---|
-| `/` | **Home** | Landing page — hero, services overview, why choose us, service area, pricing, CTA |
-| `/about` | **About** | Mariea's story, values, languages served, accessibility info, service area detail |
-| `/contact` | **Contact & Booking** | Tabbed: Booking Request Form + Ask a Question form |
-| `/testimonials` | **Testimonials** | Client reviews, stats strip, leave-a-review section |
+| `/` | **Home** | Hero, services overview, why choose us, service area, pricing, CTA |
+| `/about` | **About** | Mariea's story, values, languages, accessibility info, service area detail |
+| `/contact` | **Contact & Booking** | Tabbed layout: Booking Request Form + Ask a Question form |
+| `/testimonials` | **Testimonials** | Client reviews, stats, leave-a-review section |
 
 ---
 
-## Getting Started
+## 🚀 Getting Started
 
-### Prerequisites
-- Node.js 18+
-- npm 9+
-
-### Install & Run
+You'll need **Node.js 18+** and **npm 9+** — that's it!
 
 ```bash
-# Clone the repository
+# Clone it
 git clone https://github.com/Matthewhewlitt/help-is-here.git
 cd help-is-here
 
 # Install dependencies
 npm install
 
-# Start development server
+# Fire it up!
 npm run dev
 # → http://localhost:5173
 ```
 
-### Build for Production
+### Building for production
 
 ```bash
 npm run build      # TypeScript check + Vite build → ./dist
@@ -78,7 +74,7 @@ npm run preview    # Preview the production build locally
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 help-is-here/
@@ -101,52 +97,48 @@ help-is-here/
 │   └── index.css            # Tailwind directives + base styles
 ├── screenshots/             # Full-page screenshots of each page
 ├── tailwind.config.ts       # Custom design tokens
-├── vite.config.ts
-├── tsconfig.json
-└── ## DO THIS FIRST.md      # Project design guidelines
+└── vite.config.ts
 ```
 
 ---
 
-## Design System
+## 🎨 Design System
 
-All colors are defined as custom tokens in `tailwind.config.ts` — no raw Tailwind palette classes used.
+All colors live in `tailwind.config.ts` as custom tokens — no raw Tailwind palette classes anywhere in the JSX!
 
-| Token | Hex | Usage |
+| Token | Hex | What it's for |
 |---|---|---|
-| `brand.primary` | `#0D2B4A` | Deep midnight navy — headings, navs, cards |
-| `brand.primary-light` | `#1B3E6A` | Hover states, lighter navy elements |
+| `brand.primary` | `#0D2B4A` | Deep midnight navy — headings, navs, dark sections |
+| `brand.primary-light` | `#1B3E6A` | Hover states, lighter navy |
 | `brand.secondary` | `#D9782A` | Warm amber — CTAs, highlights, accents |
-| `brand.accent` | `#C04E35` | Rust coral — required field indicators |
+| `brand.accent` | `#C04E35` | Rust coral — required field markers |
 | `brand.surface` | `#F6F2EC` | Warm cream — page backgrounds |
-| `brand.dark` | `#1A2B35` | Near-black — footer, dark sections |
+| `brand.dark` | `#1A2B35` | Near-black — footer, dark bands |
 
-**Fonts:** Playfair Display (`font-display`) for headings · DM Sans (`font-body`) for body text
-
----
-
-## Content Notes
-
-Content marked with **(placeholder)** in the source code is fabricated/representative and should be replaced with real information from Mariea:
-
-- **Testimonials** — All 6 reviews are placeholder. Replace with real client feedback.
-- **About page story** — The backstory paragraphs and founder quote are written/inferred. Mariea should review and rewrite in her own words.
-- **Values section** — The four values descriptions are placeholder editorial copy.
-- **"Most requested service" pill** — Placeholder label on the Medical Transportation card.
-
-All **contact information, pricing, service area, hours, and accessibility details** are sourced directly from public directory listings and are real.
+**Fonts:** Playfair Display (`font-display`) for headings · DM Sans (`font-body`) for everything else — both loaded via Google Fonts.
 
 ---
 
-## Form Behaviour
+## ✏️ Placeholder Content
 
-Both forms on the Contact page use `mailto:` links — on submit they open the user's email client with all fields pre-filled, addressed to `marieamwiles@gmail.com`. No backend or third-party form service is required.
+Anything marked **(placeholder)** in the source needs to be swapped out for real content from Mariea:
+
+- **Testimonials** — All 6 reviews are made up. Please replace with real client feedback!
+- **About page story** — The backstory paragraphs and founder quote are written/inferred. Mariea should rewrite these in her own words.
+- **Values section** — The four values descriptions are editorial copy, not verified.
+- **"Most requested service" pill** — Just a label, not a confirmed stat.
+
+Everything else — contact info, pricing, service area, hours, accessibility details — is pulled from real public directory listings. ✅
 
 ---
 
-## Screenshots
+## 📬 How the Forms Work
 
-Full-page screenshots are stored in `screenshots/` and are updated whenever a page changes.
+Both forms on the Contact page use `mailto:` — on submit they open the user's default email app with all fields pre-filled, addressed to `marieamwiles@gmail.com`. No backend or third-party form service needed!
+
+---
+
+## 📸 Screenshots
 
 | Page | File |
 |---|---|
@@ -157,6 +149,4 @@ Full-page screenshots are stored in `screenshots/` and are updated whenever a pa
 
 ---
 
-## License
-
-Private project — all rights reserved. Built for Help is Here, Collingwood, Ontario.
+Built with ❤️ for Help is Here — Collingwood, Ontario 🍁
